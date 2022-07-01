@@ -77,7 +77,7 @@ body {
     color: #FFFFFF;
 }
 
-button {
+.order-batton {
     font-family: inherit;
     font-weight: 700;
     font-size: 16px;
@@ -129,6 +129,31 @@ button {
     color: #fff;
 }
 
+/* Portfolio styles */
+.filter-button {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    color: #212121;
+    background-color: #F5F4FA;
+}
 
+.filter-button:focus,
+.filter-button:hover {
+    color: #fff;
+    background-color: #2196F3;
+}
 
+.samples-title {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: #212121;
+}
+
+.samples-description {
+    font-size: 16px;
+    line-height: 1.87;
+}
 
