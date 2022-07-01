@@ -1,0 +1,134 @@
+/* Розміри, колір, текст */
+h1,
+h2,
+h3 
+{ text-decoration: none; }
+
+body {
+    background-color: #fff;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
+
+/* Кольори логотипу */
+:root { --logo-brand-color: #2196f3; }
+:root { --logo-positive-color: #000; }
+:root { --logo-negative-color: #fff; }
+
+
+
+/* header */
+/* стилізація logo */
+.logo,
+.logo-positive,
+.logo-negative {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+	line-height: 1.2;
+	color: var(--logo-brand-color);
+	text-decoration: none;
+}
+
+.logo-positive { color: var(--logo-positive-color); }
+.logo-negative { color: var(--logo-negative-color); }
+
+.menu {
+    font-weight: 500;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: #212121;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.menu .link:visited { color: #212121; }
+
+/* стилізація nav-box при наведенні мишкою чи фокусі */
+.menu .link:hover,
+.menu .link:focus,
+.contacts .link:hover,
+.contacts .link:focus {
+    color: #2196f3;
+}
+
+.contacts .link {
+    font-weight: 500;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: #757575;
+}
+
+.hero { background-color: #2F303A; }
+
+.hero-title {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+button {
+    font-family: inherit;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.06em;
+    color: #fff;
+    background-color: #2196F3;
+}
+
+.section-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    color: #212121;
+}
+
+.features-title {
+    font-weight: 700;
+    line-height: 1.14;
+    text-transform: uppercase;
+    color: #212121;
+}
+
+.employee-name {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.18;
+    color: #212121;
+}
+
+.employee-posiition {
+    font-size: 16px;
+    line-height: 1.18;
+}
+
+
+
+/* footer */
+.footer {
+    background-color: #2F303A;
+}
+
+.footer-contats .link {
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.link.company-address {
+    color: #fff;
+}
+
+
+
+
